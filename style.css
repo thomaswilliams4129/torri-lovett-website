@@ -1,0 +1,308 @@
+/* Every Html File */
+body {
+    background-color: #EDF0E9 !important;
+    margin: 0 auto;
+    color: #B49258;
+    animation: fadeIn 1.25s;
+}
+
+/* all Images */
+img {
+  animation: fadeIn 1.25s;
+}
+
+/**************/
+/* INDEX.HTML */
+/**************/
+
+/* Home Screen Parralax*/
+#home_screen {
+    /* The image used */
+  background-image: url("images/home_page_wallpaper.JPG");
+
+  /* Set a specific height */
+  min-height: 1080px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+/* End of Home Screen */
+
+  /* nav-bar */
+  .topnav {
+    overflow: hidden;
+    background-color: none;
+    text-align: center;
+  }
+  
+  .topnav a {
+    display: inline-block;
+    color: #B49258 !important;
+    font-family: Helvetica;
+    padding: 65px 85px;
+    text-decoration: none !important;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  .topnav a:hover {
+    background-color: none;
+    opacity: 0.5;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav .icon{
+      float: none;
+      display: block;
+      padding: 20px 20px;
+      background: rgba(169, 169, 169, 0.1); 
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav .responsive .icon a {
+      position: absolute;
+      float: right;
+    }
+    .topnav.responsive a{
+        padding: 20px 20px;
+        display: block;
+        text-align: center;
+    }
+  }
+  /* end of nav-bar */
+
+  /* Torri Lovett Title */
+.title {
+    text-align: center;
+}
+
+.title a {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #B49258;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Collage Home page */
+#collage_body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#collage img {
+    display: inline-block;
+    width: 30%;
+    margin: .5%;
+}
+
+#collage {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+/* End of Collage Home Page */
+
+/* Social Media Icons */
+.social_media {
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 65px;
+}
+
+.social_media p {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.fa {
+  background: none;
+  color: #B49258;
+  padding: 20px;
+  font-size: 2em !important;
+  text-decoration: none;
+}
+
+.social_media a:hover {
+  opacity: 0.5;
+  color: #B49258;
+  text-decoration-line: none;
+}
+/* Social Media End */
+
+/*********************/
+/* END OF INDEX.HTML */
+/*********************/
+
+/**********************************************************************/
+
+/******************/
+/*Nav bar 2 Title */
+/******************/
+
+.title2 {
+    text-align: center;
+}
+
+.title2 a {
+    width: 100%;
+    color: #B49258;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.title2 a:hover {
+    opacity: 0.5 !important;
+    text-decoration: none !important;
+    color: #B49258;
+}
+
+/**********************************************************************/
+
+/***************/
+/* MYWORK.HTML */
+/***************/
+
+/* Collage My Work Page */
+.row {
+  display: flex;
+  height: 900px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.text {
+  text-align:center;
+  position: relative;
+  margin-top: -80%;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.column img:hover {
+  opacity: 0.5;
+}
+
+.insta {
+  font-size: 60px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    height: 300px;
+  }
+}
+
+.fa-arrow-left {
+  color: #B49258 !important;
+}
+
+.fa-arrow-left:hover {
+  opacity: 0.5;
+  text-decoration: none !important;
+}
+/* End of Collage My Work Page */
+
+
+/****************************************************************/
+
+
+/************/
+/* WHOIAM.HTML */
+/************/
+
+
+
+.profileImg {
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic {
+  text-align: center !important;
+  margin-bottom: 10%;
+}
+
+.bio {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #B49258;
+  font-family: 'Montserrat';
+}
+
+.heyFriends {
+  font-size: 25px;
+}
+
+.me {
+  margin-top: 25px;
+}
+
+
+/****************************************************************/
+
+
+/**************/
+/* SAYHI.HTML */
+/**************/
+
+.button {
+  background-color: #B49258 !important;
+  border-color: #B49258 !important;
+}
+
+.button:hover {
+  background-color: #EDF0E9 !important;
+  color: #B49258 !important;
+}
+
+.form-control {
+  background-color: #EDF0E9 !important;
+}
+
+label {
+  color: #B49258 !important;
+}
+
+.form-control:focus {
+  border-color: #B49258!important;
+  box-shadow: 0 0 5px #B49258 !important;
+}
+/****************************************************************/
+
+/* Fonts */
+@font-face {
+    font-family: Helvetica;
+    src: url(./fonts/helvetica-47-light-condensed-587ebd7b5a6f6.ttf);
+  }
