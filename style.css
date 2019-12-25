@@ -1,8 +1,7 @@
 /* Every Html File */
 body {
-    background-color: #EDF0E9 !important;
+    background-color: white !important;
     margin: 0 auto;
-    color: #B49258;
     animation: fadeIn 1.25s;
 }
 
@@ -18,7 +17,7 @@ img {
 /* Home Screen Parralax*/
 #home_screen {
     /* The image used */
-  background-image: url("images/home_page_wallpaper.JPG");
+  background-image: url("./images/home_page_wallpaper.jpg");
 
   /* Set a specific height */
   min-height: 1080px; 
@@ -41,16 +40,17 @@ img {
   
   .topnav a {
     display: inline-block;
-    color: #B49258 !important;
+    color: white ;
+    font-size: larger;
     font-family: Helvetica;
     padding: 65px 85px;
     text-decoration: none !important;
-    font-size: 25px;
     text-transform: uppercase;
   }
   
   .topnav a:hover {
     background-color: none;
+    color: #A45A1F !important;
     opacity: 0.5;
   }
   
@@ -87,21 +87,24 @@ img {
   /* end of nav-bar */
 
   /* Torri Lovett Title */
-.title {
+  .title {
     text-align: center;
-}
+  }
 
 .title a {
-  position: absolute;
-  top: 57%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  color: #B49258;
-  font-family: 'Montserrat';
-  text-transform: uppercase;
-  font-size: 2.5em;
-  margin: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.title a:hover {
+    opacity: 0.5 !important;
+    text-decoration: none !important;
+    color: #A45A1F;
 }
 
 /* Collage Home page */
@@ -132,6 +135,7 @@ img {
 
 .social_media p {
   font-size: 1.7em;
+  color: #B49258;
   text-transform: uppercase;
   font-family: 'Montserrat';
 }
@@ -146,7 +150,7 @@ img {
 
 .social_media a:hover {
   opacity: 0.5;
-  color: #B49258;
+  color: #A45A1F;
   text-decoration-line: none;
 }
 /* Social Media End */
@@ -167,7 +171,7 @@ img {
 
 .title2 a {
     width: 100%;
-    color: #B49258;
+    color: #A45A1F;
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 45px;
@@ -178,61 +182,10 @@ img {
 .title2 a:hover {
     opacity: 0.5 !important;
     text-decoration: none !important;
-    color: #B49258;
+    color: #A45A1F;
 }
 
 /**********************************************************************/
-
-/***************/
-/* MYWORK.HTML */
-/***************/
-
-/* Collage My Work Page */
-.row {
-  display: flex;
-  height: 900px;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  margin-top: 50px;
-}
-
-.text {
-  text-align:center;
-  position: relative;
-  margin-top: -80%;
-  color: white;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-family: 'Montserrat';
-}
-
-.column img:hover {
-  opacity: 0.5;
-}
-
-.insta {
-  font-size: 60px !important;
-}
-
-@media screen and (max-width: 600px) {
-  .row {
-    height: 300px;
-  }
-}
-
-.fa-arrow-left {
-  color: #B49258 !important;
-}
-
-.fa-arrow-left:hover {
-  opacity: 0.5;
-  text-decoration: none !important;
-}
-/* End of Collage My Work Page */
 
 
 /****************************************************************/
@@ -245,8 +198,7 @@ img {
 
 
 .profileImg {
-  width: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
 }
 
 .pic {
@@ -269,6 +221,10 @@ img {
   margin-top: 25px;
 }
 
+.darkNavBar a {
+  color: #A45A1F !important;
+}
+
 
 /****************************************************************/
 
@@ -283,12 +239,12 @@ img {
 }
 
 .button:hover {
-  background-color: #EDF0E9 !important;
-  color: #B49258 !important;
+  background-color: white !important;
+  color: #A45A1F !important;
 }
 
 .form-control {
-  background-color: #EDF0E9 !important;
+  background-color: white !important;
 }
 
 label {
