@@ -7,7 +7,7 @@ body {
 
 /* all Images */
 img {
-  animation: fadeIn 1.25s;
+    animation: fadeIn 1.25s;
 }
 
 /**************/
@@ -16,80 +16,88 @@ img {
 
 /* Home Screen Parralax*/
 #home_screen {
-    /* The image used */
-  background-image: url("./images/home_page_wallpaper.jpg");
 
-  /* Set a specific height */
-  min-height: 1080px; 
+    /* Set a specific height */
+    min-height: 1080px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: auto;
+    background: url("./images/home_page_wallpaper.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-color: #A45A1F;
+    margin: auto;
 }
+
+.home_screen img {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
 /* End of Home Screen */
 
-  /* nav-bar */
-  .topnav {
+/* nav-bar */
+.topnav {
     overflow: hidden;
     background-color: none;
     text-align: center;
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     display: inline-block;
-    color: white ;
+    color: white;
     font-size: larger;
     font-family: Helvetica;
     padding: 65px 85px;
     text-decoration: none !important;
     text-transform: uppercase;
-  }
-  
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     background-color: none;
     color: #A45A1F !important;
     opacity: 0.5;
-  }
-  
-  .topnav .icon {
+}
+
+.topnav .icon {
     display: none;
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .topnav a {
         display: none;
     }
-    .topnav .icon{
-      float: none;
-      display: block;
-      padding: 20px 20px;
-      background: rgba(169, 169, 169, 0.1); 
+    .topnav .icon {
+        float: none;
+        display: block;
+        padding: 20px 20px;
+        background: rgba(169, 169, 169, 0.1);
     }
-  }
-  
-  @media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
     }
     .topnav .responsive .icon a {
-      position: absolute;
-      float: right;
+        position: absolute;
+        float: right;
     }
-    .topnav.responsive a{
+    .topnav.responsive a {
         padding: 20px 20px;
         display: block;
         text-align: center;
     }
-  }
-  /* end of nav-bar */
+}
+/* end of nav-bar */
 
-  /* Torri Lovett Title */
-  .title {
+/* Torri Lovett Title */
+.title {
     text-align: center;
-  }
+}
 
 .title a {
     width: 100%;
@@ -111,6 +119,7 @@ img {
 #collage_body {
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 50px;
 }
 
 #collage img {
@@ -128,30 +137,30 @@ img {
 
 /* Social Media Icons */
 .social_media {
-  text-align: center;
-  margin-top: 45px;
-  padding-top: 65px;
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 65px;
 }
 
 .social_media p {
-  font-size: 1.7em;
-  color: #B49258;
-  text-transform: uppercase;
-  font-family: 'Montserrat';
+    font-size: 1.7em;
+    color: #B49258;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
 }
 
 .fa {
-  background: none;
-  color: #B49258;
-  padding: 20px;
-  font-size: 2em !important;
-  text-decoration: none;
+    background: none;
+    color: #B49258;
+    padding: 20px;
+    font-size: 2em !important;
+    text-decoration: none;
 }
 
 .social_media a:hover {
-  opacity: 0.5;
-  color: #A45A1F;
-  text-decoration-line: none;
+    opacity: 0.5;
+    color: #A45A1F;
+    text-decoration-line: none;
 }
 /* Social Media End */
 
@@ -196,33 +205,32 @@ img {
 /************/
 
 
-
 .profileImg {
-  width: 80%;
+    width: 80%;
 }
 
 .pic {
-  text-align: center !important;
-  margin-bottom: 10%;
+    text-align: center !important;
+    margin-bottom: 10%;
 }
 
 .bio {
-  margin-left: 5%;
-  margin-right: 5%;
-  color: #B49258;
-  font-family: 'Montserrat';
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #B49258;
+    font-family: 'Montserrat';
 }
 
 .heyFriends {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .me {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 .darkNavBar a {
-  color: #A45A1F !important;
+    color: #A45A1F !important;
 }
 
 
@@ -234,31 +242,35 @@ img {
 /**************/
 
 .button {
-  background-color: #B49258 !important;
-  border-color: #B49258 !important;
+    background-color: #B49258 !important;
+    border-color: #B49258 !important;
 }
 
 .button:hover {
-  background-color: white !important;
-  color: #A45A1F !important;
+    background-color: white !important;
+    color: #A45A1F !important;
 }
 
 .form-control {
-  background-color: white !important;
+    background-color: white !important;
 }
 
 label {
-  color: #B49258 !important;
+    color: #B49258 !important;
 }
 
 .form-control:focus {
-  border-color: #B49258!important;
-  box-shadow: 0 0 5px #B49258 !important;
+    border-color: #B49258 !important;
+    box-shadow: 0 0 5px #B49258 !important;
 }
+
 /****************************************************************/
 
 /* Fonts */
 @font-face {
     font-family: Helvetica;
-    src: url(./fonts/helvetica-47-light-condensed-587ebd7b5a6f6.ttf);
-  }
+    src: url('./fonts/helvetica-47-light-condensed-587ebd7b5a6f6.ttf');
+}
+
+
+
